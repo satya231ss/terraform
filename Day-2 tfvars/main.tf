@@ -1,4 +1,4 @@
-resource "aws_instance" "day2" {
+resource "aws_instance" "dev" {
   ami = var.ami_id
   instance_type = var.type
   #key_name = "test"
